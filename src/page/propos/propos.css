@@ -1,0 +1,23 @@
+.div2Info{
+    margin-bottom: 60px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div2Info, .div1Info{
+    width: 80%;
+}
+
+
+@media screen and (max-width: 768px){
+    .div2Info{
+        margin-bottom: 40px;
+    }
+
+    .div1Info, .div2Info{
+        width: 100%;
+    }
+  }

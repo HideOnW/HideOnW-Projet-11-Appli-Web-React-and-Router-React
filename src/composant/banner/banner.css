@@ -1,0 +1,17 @@
+a{
+    text-decoration: none;
+    color: red;
+    margin-left: 50px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 768px){
+    a{
+      font-size: 12px;
+      margin-left: 25px;
+      text-transform: uppercase;
+    }
+  }
+

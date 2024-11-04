@@ -1,0 +1,123 @@
+.description{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    color: #FF6060;
+}
+
+.prop, .rating{
+    display: flex;
+    justify-content: end;
+}
+
+.prop{
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center ;
+    margin-bottom: 15px;
+    
+}
+
+.des1 h2{
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.des1 h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.des2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.des2 h2{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.prop img{
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+}
+
+.prop h2{
+    display: flex;
+    flex-direction: column;
+    text-wrap:wrap;
+    justify-content:center;
+    justify-self: flex-end;
+    max-width: 120px;
+    text-align: end;
+    margin-right: 10px;
+    
+}
+
+.allInfo {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.allInfo div{
+    width: 45%;
+}
+.allInfo div div{
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .description{
+        flex-direction: column ;
+    }
+
+    .des1 h2{
+        font-size: 18px;
+    }
+
+    .des1 h3{
+        font-size: 14px;
+    }
+
+    .des2{
+        margin-top: 10px;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .rating{
+        display: flex;
+        align-items: center;
+    }
+
+    .rating img{
+        height: 18px;
+    }
+
+    .des2 h2{
+        font-size: 12px;
+    }
+
+    .allInfo{
+        flex-direction: column;
+    }
+
+    .allInfo div{
+        width: 100%;
+    }
+
+    .div1Info p{
+        font-size: 12px;
+    }
+
+    .div1Info img{
+        height: 9px;
+    }
+  }

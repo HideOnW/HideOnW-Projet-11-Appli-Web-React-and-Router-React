@@ -1,0 +1,39 @@
+.firstImage{
+    width: 100%;
+    height: 223px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;    
+    border-radius: 25px;
+    margin-bottom: 50px;}
+
+.firstTexte{
+    background-color:rgba(0, 0, 0, 0.3);;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textImage{
+    margin: 0px;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .firstImage{
+        height: 111px;
+        margin-bottom: 25 px;
+    }
+    .textImage{
+        font-size: 40px;
+        font-size: 22px;
+        margin-left: 20px;
+        font-weight: 400;
+    }
+  }

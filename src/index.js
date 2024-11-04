@@ -10,6 +10,7 @@ import Error from './page/error/error.jsx'
 import reportWebVitals from './reportWebVitals';
 import Logement from './page/logement/logement.jsx';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -17,7 +18,7 @@ root.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/propos" element={<Propos />} />
-        <Route path="/logement" element={<Logement />} />
+        <Route path="/logement/:id" element={<Logement />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>

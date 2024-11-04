@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom';
 import logo from '../../asset/LOGO.jpg';
+import './banner.css'
 
-function Banner() {
-    return (
+function Banner(page) {
+    return ( 
+        // page === 'Home' ?
     <>
         <img src={logo} alt="logo Kasa"></img>
         <nav>
-            <Link to="/">Acceuil</Link>
+            <Link to="/" >Accueil</Link>
             <Link to="/propos">A Propos</Link>
         </nav>
     </>

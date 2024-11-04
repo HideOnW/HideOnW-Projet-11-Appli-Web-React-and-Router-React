@@ -1,0 +1,20 @@
+.divError{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ff6060;
+}
+
+.divError h2{
+    font-size: 288px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.divError h3{
+    font-size: 36px;
+}
+.divError a{
+    margin-left: 0px;
+}
