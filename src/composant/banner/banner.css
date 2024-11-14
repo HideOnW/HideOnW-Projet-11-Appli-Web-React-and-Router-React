@@ -7,7 +7,7 @@ a{
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 810px){
     a{
       font-size: 12px;
       margin-left: 25px;

@@ -17,4 +17,16 @@
 }
 .divError a{
     margin-left: 0px;
+    text-decoration: underline;
 }
+
+
+@media screen and (max-width: 768px){
+    .divError h2{
+        font-size: 96px;
+    }
+
+    .divError h3{
+        font-size: 18px;
+    }
+  }

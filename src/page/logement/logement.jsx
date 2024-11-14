@@ -14,17 +14,20 @@ import { useEffect } from 'react';
 
 
 function Logement() {
-    const params = useParams()
-    const logement = datas.find((element) => element.id === params.id);
-    const navigate = useNavigate();
+  const {id} = useParams();
+  console.log(id)
+  const navigate = useNavigate();
+  const logement = datas.find((element) => element.id === id); 
 
-    useEffect(() => {
-      if (!logement) {
-        navigate('../error/error'); // Redirige vers la page d'erreur
-      }
-    }, [logement, navigate]);
+  useEffect(() => {
+    if (!logement) {
+      navigate('/error');
+    }
+  }, [logement, navigate]);
 
-    
+  if (!logement) {
+    return null;
+  }   
 
     const activeStar = []
     const inactiveStar =[]
@@ -57,6 +60,9 @@ function Logement() {
             <div className="rating">
                 {activeStar.map((active) =>(
                   <img src={imgActiveStar} alt="active star"></img>
+                ))}
+                {inactiveStar.map((ainactive) =>(
+                  <img src={imgInactiveStar} alt="inactive star"></img>
                 ))}
             </div>
           </div>     
