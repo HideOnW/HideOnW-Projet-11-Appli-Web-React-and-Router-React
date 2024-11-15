@@ -6,16 +6,6 @@
     font-family: "Montserrat", sans-serif
 }
 
-footer{
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    height: 250px;
-    
-}
 
 
 @media screen and (max-width: 768px){
@@ -26,9 +16,5 @@ footer{
     .App-header img{
         width: 145px;
         height: 46.88px;
-    }
-
-    footer{
-        margin-top: 20px;
     }
   }
