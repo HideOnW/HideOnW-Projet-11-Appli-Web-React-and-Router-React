@@ -13,7 +13,6 @@ function Home() {
         <header className="App-header">
             <Banner page='Home'/>
         </header>
-        {/* <Link to="/Error">Error</Link> */}
         <FirstImage text='Chez vous, partout et ailleurs' image={imgSea}/>
         <Annonce />
         <footer>
