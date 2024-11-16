@@ -56,5 +56,10 @@
     .div1Info p{
         margin: 5px;
     }
+
+    .div2Info p{
+        font-size: 12px;
+        line-height: 18px;
+    }
   }
 
